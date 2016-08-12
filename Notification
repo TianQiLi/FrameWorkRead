@@ -1,0 +1,4 @@
+# NotificationCenter
+NotificationCenter 对象提供了一种在项目中广播消息的机制，本质上是一个通知调度表>。
+对象注册是通过通知中心收到通知完成的，使用addObserver:selector:  Or  addObserverForName: object: 两个方法。每一个方法的调用指明了一些列的通知。 因此，对象可以注
+册成为不同观察者的
